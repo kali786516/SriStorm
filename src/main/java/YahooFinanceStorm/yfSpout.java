@@ -1,4 +1,4 @@
-/**
+package YahooFinanceStorm; /**
  * Created by kalit_000 on 18/03/2017.
  */
 import org.apache.storm.spout.SpoutOutputCollector;
