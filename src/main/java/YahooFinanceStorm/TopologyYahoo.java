@@ -22,7 +22,7 @@ public class TopologyYahoo {
         //Configuration
         Config conf = new Config();
         conf.setDebug(true);
-        conf.put("fileToWrite", "C:\\Users\\kalit_000\\Desktop\\pluralsight_hadoop\\storm_output\\output.txt");
+        conf.put("fileToWrite", "/Users/kalit_000/storm_op/output.txt");
 
         //Submit Topology to cluster
         LocalCluster cluster=new LocalCluster();
